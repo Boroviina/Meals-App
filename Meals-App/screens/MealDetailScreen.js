@@ -21,7 +21,6 @@ function MealDetailScreen({route, navigation}) {
                 return <IconButton icon={'star-outline'}
                                    color={'white'}
                                    onTap={headerButtonPressHeandler}/>
-                // return <Button title={'Tap me'}/>
                     }
         })
     }, [navigation, headerButtonPressHeandler]);
